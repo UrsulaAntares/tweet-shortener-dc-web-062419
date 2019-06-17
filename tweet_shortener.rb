@@ -35,7 +35,7 @@ def word_substituter(string)
 #        word = short_word 
        if list_of_options.include?(word.downcase)
 #        puts "yes we see you"
-        new_string_array << dictionary[word]
+        new_string_array << dictionary[word.downcase]
       else 
 #        puts "but this word is ok we mean okay"
         new_string_array << word
