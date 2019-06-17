@@ -19,6 +19,7 @@ def word_substituter(string)
   dictionary
   dictionary.each do |long_word, short_word|
     puts "#{long_word} will become #{short_word}"
+    string.sub
   end
   puts string
 end
