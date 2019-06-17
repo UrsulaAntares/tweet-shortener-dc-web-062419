@@ -20,6 +20,7 @@ def word_substituter(string)
   dictionary.each do |long_word, short_word|
     puts "#{long_word} will become #{short_word}"
   end
+  puts string
 end
 
 string = "hello to you two and you are too much for be at"
