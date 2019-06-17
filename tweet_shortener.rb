@@ -55,5 +55,5 @@ def word_substituter(string)
 #  puts string
 end
 
-string = "hello to you two and you are too much for be at"
-word_substituter(string)
+#string = "hello to you two and you are too much for be at"
+#word_substituter(string)
