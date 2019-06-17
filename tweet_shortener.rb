@@ -18,6 +18,7 @@ end
 def word_substituter(string)
   dictionary
   string_array = []
+  new_string_array = []
   dictionary.each do |long_word, short_word|
 #    puts "#{long_word} will become #{short_word}"
     string_array = string.split(" ")
@@ -26,7 +27,13 @@ def word_substituter(string)
 #      puts "We found #{long_word}"
 #    end
 #    puts short_word
-    string_array.map! do |word| (word == long_word) ? word : puts "all good" 
+    string_array.map! do |word|
+      if word == long_word 
+        word = short_word 
+        new_string_array << word
+      else 
+        new_string_array << word
+      end
     end
 #    string = string_array.join(" ")
  
