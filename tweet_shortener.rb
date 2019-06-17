@@ -46,7 +46,7 @@ def word_substituter(string)
 #    string_array = string_array
   end
   puts new_string_array.join(" ")
-  puts string
+#  puts string
 end
 
 string = "hello to you two and you are too much for be at"
