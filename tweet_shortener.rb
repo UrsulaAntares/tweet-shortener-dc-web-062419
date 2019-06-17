@@ -20,7 +20,8 @@ def word_substituter(string)
   string_array = []
   new_string_array = []
   string_array = string.split(" ")
-  dictionary.each do |long_word, short_word|
+  list_of_options = dictionary.keys
+#  dictionary.each do |long_word, short_word|
 #    puts "#{long_word} will become #{short_word}"
 #    puts string_array
 #    if string_array.include?(long_word)
@@ -30,12 +31,12 @@ def word_substituter(string)
 
     string_array.each do |word|
       if word == long_word 
-        word = short_word 
-        new_string_array << word
-      else 
-        new_string_array << word
-      end
-    end
+#        word = short_word 
+#        new_string_array << word
+#      else 
+#        new_string_array << word
+#      end
+#    end
 #    string = string_array.join(" ")
  
 #    string_array.each do|word|
