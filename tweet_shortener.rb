@@ -22,7 +22,7 @@ def word_substituter(string)
     string_array = string.split(" ")
 #    puts string_array
     if string_array.include?(long_word)
-      puts "We found #{long_word}"
+#      puts "We found #{long_word}"
     end
     string = string_array.join(" ")
     puts string
