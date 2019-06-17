@@ -27,7 +27,7 @@ def word_substituter(string)
 #    end
     puts long_word
 #    string_array.map {|word| word == long_word ? word : puts "all good" }
-    end
+#    end
 #    string = string_array.join(" ")
     puts string_array
     string_array = string_array
