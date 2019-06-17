@@ -36,7 +36,7 @@ def word_substituter(string)
 #      else 
 #        new_string_array << word
 #      end
-#    end
+    end
 #    string = string_array.join(" ")
  
 #    string_array.each do|word|
