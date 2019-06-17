@@ -21,7 +21,7 @@ def word_substituter(string)
     puts "#{long_word} will become #{short_word}"
     string_array = string.split(" ")
     puts string
-    string.join(" ")
+    string = string_array.join(" ")
     puts string
   end
   puts string
