@@ -21,7 +21,7 @@ def word_substituter(string)
   new_string_array = []
   string_array = string.split(" ")
   list_of_options = dictionary.keys
-  puts "This is the list of options: #{list_of_options}"
+#  puts "This is the list of options: #{list_of_options}"
 #  dictionary.each do |long_word, short_word|
 #    puts "#{long_word} will become #{short_word}"
 #    puts string_array
