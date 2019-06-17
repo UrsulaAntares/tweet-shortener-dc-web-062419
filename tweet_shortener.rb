@@ -60,7 +60,9 @@ end
 
 
 def bulk_tweet_shortener(tweet_array)
+    new_tweet = ""
     tweet_array.each do |string|
-      puts word_substituter(string)
+      new_tweet = word_substituter(string)
+      puts new_tweet
     end
 end
