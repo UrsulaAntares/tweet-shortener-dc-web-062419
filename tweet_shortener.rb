@@ -24,7 +24,7 @@ def word_substituter(string)
 #    if string_array.include?(long_word)
 #      puts "We found #{long_word}"
 #    end
-    string.map {|word| word == long_word ? word = short_word : word = word }
+    string_array.map {|word| word == long_word ? word = short_word : word = word }
     string = string_array.join(" ")
     puts string
   end
