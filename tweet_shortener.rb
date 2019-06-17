@@ -41,7 +41,7 @@ def word_substituter(string)
 #      if word == long_word
 #        word = short_word
 #      end  
-    end
+#    end
     puts string_array
     string_array = string_array
   end
