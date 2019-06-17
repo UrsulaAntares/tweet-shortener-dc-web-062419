@@ -21,9 +21,10 @@ def word_substituter(string)
 #    puts "#{long_word} will become #{short_word}"
     string_array = string.split(" ")
 #    puts string_array
-    if string_array.include?(long_word)
+#    if string_array.include?(long_word)
 #      puts "We found #{long_word}"
-    end
+#    end
+
     string = string_array.join(" ")
     puts string
   end
