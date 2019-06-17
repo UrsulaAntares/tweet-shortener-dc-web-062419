@@ -27,6 +27,7 @@ def word_substituter(string)
 #      puts "We found #{long_word}"
 #    end
 #    puts short_word
+
     string_array.each do |word|
       if word == long_word 
         word = short_word 
