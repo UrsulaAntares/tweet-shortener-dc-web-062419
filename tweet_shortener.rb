@@ -57,3 +57,10 @@ end
 
 #string = "hello to you two and you are too much for be at"
 #word_substituter(string)
+
+
+def bulk_tweet_shortener(tweet_array)
+    tweet_array.each do |string|
+      puts word_substituter(string)
+    end
+end
