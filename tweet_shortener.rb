@@ -19,9 +19,9 @@ def word_substituter(string)
   dictionary
   string_array = []
   new_string_array = []
+  string_array = string.split(" ")
   dictionary.each do |long_word, short_word|
 #    puts "#{long_word} will become #{short_word}"
-    string_array = string.split(" ")
 #    puts string_array
 #    if string_array.include?(long_word)
 #      puts "We found #{long_word}"
