@@ -37,6 +37,7 @@ def word_substituter(string)
         puts "yes we see you"
         new_string_array << word
       else 
+        puts "but this word is ok we mean okay"
         new_string_array << word
       end
     end
