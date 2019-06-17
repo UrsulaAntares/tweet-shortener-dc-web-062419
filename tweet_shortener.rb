@@ -75,3 +75,5 @@ def selective_tweet_shortener(tweet_array)
     end
   end
 end
+
+selective_tweet_shortener(["sdflksdjfooiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmasdkl", "lkjsldkfjsdfkjsdf"])
