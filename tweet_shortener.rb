@@ -20,7 +20,7 @@ def word_substituter(string)
   dictionary.each do |long_word, short_word|
     puts "#{long_word} will become #{short_word}"
     string_array = string.split(" ")
-    puts string
+    puts string_array
     string = string_array.join(" ")
     puts string
   end
