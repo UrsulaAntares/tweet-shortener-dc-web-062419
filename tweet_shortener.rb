@@ -34,10 +34,10 @@ def word_substituter(string)
 #      if word == long_word 
 #        word = short_word 
        if list_of_options.include?(word)
-        puts "yes we see you"
+#        puts "yes we see you"
         new_string_array << dictionary[word]
       else 
-        puts "but this word is ok we mean okay"
+#        puts "but this word is ok we mean okay"
         new_string_array << word
       end
     end
