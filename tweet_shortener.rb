@@ -71,9 +71,10 @@ end
 def selective_tweet_shortener(tweet_array)
   tweet_array.each do |tweet|
     if tweet.length > 140
-      puts "This shit is long"
+#      puts "This shit is long"
+      word_substituter(tweet)
     else
-      puts "Eh it's ok"
+#      puts "Eh it's ok"
     end
   end
 end
