@@ -66,3 +66,12 @@ def bulk_tweet_shortener(tweet_array)
       puts new_tweet
     end
 end
+
+
+def selective_tweet_shortener(tweet_array)
+  tweet_array.each do |tweet|
+    if tweet.legth > 140
+      puts "This shit is long"
+    end
+  end
+end
