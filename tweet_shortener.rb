@@ -68,15 +68,15 @@ def bulk_tweet_shortener(tweet_array)
 end
 
 
-def selective_tweet_shortener(tweet_array)
-  tweet_array.each do |tweet|
+def selective_tweet_shortener(tweet)
+#  tweet_array.each do |tweet|
     if tweet.length > 140
 #      puts "This shit is long"
       word_substituter(tweet)
     else
 #      puts "Eh it's ok"
     end
-  end
+#  end
 end
 
 #selective_tweet_shortener(["sdflksdjfooiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmasdkl", "lkjsldkfjsdfkjsdf", "sdflksdjfooiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmasdkl",])
