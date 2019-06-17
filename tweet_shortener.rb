@@ -72,8 +72,10 @@ def selective_tweet_shortener(tweet_array)
   tweet_array.each do |tweet|
     if tweet.legth > 140
       puts "This shit is long"
+    else
+      puts "Eh it's ok"
     end
   end
 end
 
-selective_tweet_shortener(["sdflksdjfooiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmasdkl", "lkjsldkfjsdfkjsdf"])
+selective_tweet_shortener(["sdflksdjfooiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmasdkl", "lkjsldkfjsdfkjsdf", "sdflksdjfooiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmasdkl",])
