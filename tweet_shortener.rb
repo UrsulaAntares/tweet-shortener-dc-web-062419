@@ -21,3 +21,6 @@ def word_substituter(string)
     puts "#{long_word} will become #{short_word}"
   end
 end
+
+string = "hello to you two and you are too much for be at"
+word_substituter(string)
