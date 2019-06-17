@@ -33,7 +33,7 @@ def word_substituter(string)
     string_array.each do |word|
 #      if word == long_word 
 #        word = short_word 
-       if list_of_options.include?(word)
+       if list_of_options.include?(word.downcase)
 #        puts "yes we see you"
         new_string_array << dictionary[word]
       else 
