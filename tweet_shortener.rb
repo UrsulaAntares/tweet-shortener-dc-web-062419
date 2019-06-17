@@ -33,10 +33,12 @@ def word_substituter(string)
     string_array.each do |word|
 #      if word == long_word 
 #        word = short_word 
-#        new_string_array << word
-#      else 
-#        new_string_array << word
-#      end
+       if list_of_options.include?(word)
+        puts "yes we see you"
+        new_string_array << word
+      else 
+        new_string_array << word
+      end
     end
 #    string = string_array.join(" ")
  
