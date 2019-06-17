@@ -81,3 +81,13 @@ def selective_tweet_shortener(tweet)
 end
 
 #selective_tweet_shortener(["sdflksdjfooiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmasdkl", "lkjsldkfjsdfkjsdf", "sdflksdjfooiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmiadmakmsd;calksdm;akldc;alkdcm;alsdkm;aldkmca;lsdkm;alcma;lsdkcma;ldkcm;aldkcma;lcma;ldkcma;ldkcm;aldkcma;ldmasdkl",])
+
+
+
+def shortened_tweet_truncator(tweet)
+  if tweet.length > 140
+    tweet[0..140]
+  else
+    tweet
+  end
+end
