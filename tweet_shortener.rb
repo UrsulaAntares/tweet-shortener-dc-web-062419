@@ -45,7 +45,7 @@ def word_substituter(string)
     puts new_string_array
 #    string_array = string_array
   end
-  new_string_array.join(" ")
+  puts new_string_array.join(" ")
   puts string
 end
 
