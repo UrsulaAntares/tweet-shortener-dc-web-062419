@@ -30,7 +30,7 @@ def word_substituter(string)
 #    puts short_word
 
     string_array.each do |word|
-      if word == long_word 
+#      if word == long_word 
 #        word = short_word 
 #        new_string_array << word
 #      else 
