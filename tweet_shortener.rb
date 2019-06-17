@@ -42,7 +42,7 @@ def word_substituter(string)
 #        word = short_word
 #      end  
 #    end
-    puts new_string_array
+#    puts new_string_array
 #    string_array = string_array
   end
   puts new_string_array.join(" ")
