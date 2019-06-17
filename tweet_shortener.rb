@@ -75,6 +75,7 @@ def selective_tweet_shortener(tweet)
       word_substituter(tweet)
     else
 #      puts "Eh it's ok"
+    tweet
     end
 #  end
 end
