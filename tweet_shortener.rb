@@ -70,7 +70,7 @@ end
 
 def selective_tweet_shortener(tweet_array)
   tweet_array.each do |tweet|
-    if tweet.legth > 140
+    if tweet.length > 140
       puts "This shit is long"
     else
       puts "Eh it's ok"
